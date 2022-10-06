@@ -1,0 +1,35 @@
+.all .about {
+    background-color: var(--dark-gray);
+    color: #fff;
+    width: 100%;
+    margin: 0;
+}
+
+section.about{
+  padding: 40px 5%; 
+  padding-bottom: 80px;
+}
+section.about p{
+    margin:0;
+    padding: 10px;
+    color: var(--light-gray);
+}
+
+#assinatura {
+  font-family: 'Allura',sans-serif;
+  font-size: 30px;
+  color: var(--color-orange);
+}
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+}
+/*Mobile*/
+@media (max-width: 425px) {
+  .all .about {
+    display: flex;
+    padding: 5%;
+  }
+}

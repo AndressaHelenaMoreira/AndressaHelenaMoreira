@@ -1,0 +1,50 @@
+
+@import url(./about.css);
+@import url(./academic.css);
+@import url(./experience.css);
+@import url(./footer.css);
+@import url(./formcontato.css);
+@import url(./hobbies.css);
+@import url(./menu.css);
+@import url(./skills.css);
+@import url(./title.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-orange: #e67e22;
+   --cor-de-fundo: #F2F2F2;
+   --gray-text: #3F3C37;
+   --dark-gray: #201F1B;
+   --cor-de-link: #FFF;
+   --button: #FF5E1E;
+   --light-gray: #CCC6BA;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+ol, ul, li {
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+.all{
+    max-width: 1400px ;
+    justify-content: center;
+    
+}

@@ -1,0 +1,131 @@
+section.title{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    min-height: 350px;
+    margin-inline: auto;
+    padding-top: 3%;
+}
+
+.title{
+    
+    margin:0 80px ;
+ 
+  }
+ 
+  .title__bio{
+   
+     padding-top: 10%;
+     font-family: 'Roboto', sans-serif;
+     color: var(--button);
+     white-space: nowrap;
+     overflow: hidden;
+     
+  }
+  /* .animation{
+    animation: escrever 6s normal;
+  }
+
+  @keyframes escrever {
+    from{
+        width: 0;
+    }
+    to{
+        width: 90%;
+        
+    }
+  } */
+  .title__subsection{
+     margin-top: 30px;
+     line-height:1.5;
+     width: 80%;
+     color: var(--gray-text);
+  }
+
+  .profile{
+    padding-top: 0%;
+    height: 350px;
+ }
+ 
+  .title__network {
+     display: flex;
+        
+ }
+ 
+ .title__network__item{
+     margin-right: 15px;
+     margin-top: 70px;
+     margin-left: 0;
+     
+     font-family: 'Roboto',sans-serif;
+     font-weight: bold;
+     font-size: 14px;
+        
+ }
+ 
+ .title__network__item a{
+    color: var(--light-gray);
+ }
+ 
+ .title__network__item a:before{
+     background: var(--color-orange);
+     
+ }
+ 
+
+ /*Tablet*/
+ @media (max-width: 768px) {
+
+    section.title{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        width: 80%;
+        min-height: 600px;
+        font-weight: 700;
+        padding-top: 15%;
+     
+    }
+    
+    section.title{
+        flex-direction: column-reverse;
+       
+    }
+}
+@media screen and (max-width: 768px){
+    .ilustracao{
+        margin-top:200px;
+        justify-content: center;
+        overflow-wrap: break-word;
+       }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+    section.title{
+        word-wrap: break-word;
+    }
+    .profile{
+        justify-content: center;
+       }
+
+       section.title{
+        width: 80%;
+        padding-top: 20%;
+        flex-direction: column;
+        min-height: 500px;
+     
+    }
+    
+    .title__subsection{
+        text-align: center;
+        margin: 10px auto;
+        width: 90%;
+    }
+
+    .title__network__item{
+        width: 90%;
+        margin: 00 10px 0;
+    }
+}

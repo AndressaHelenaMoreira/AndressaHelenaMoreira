@@ -28,6 +28,8 @@ section.menu{
     display: flex;
     align-items: center;
     gap: 25px; 
+    padding-right: 1%;
+
          
 }
 

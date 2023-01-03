@@ -1,5 +1,5 @@
 .footer__rodape{
-height: 60px;
+height: 80px;
 padding: 15px;
 margin: auto;
 text-align: center;
@@ -10,5 +10,6 @@ color: #fff;
 @media screen and (min-width: 1440px) {
     .footer__rodape {
         font-size: 1rem;
+        
     }
 }

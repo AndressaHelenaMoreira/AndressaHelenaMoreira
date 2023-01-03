@@ -44,24 +44,27 @@
 .formcontato__botao{
     text-transform: uppercase;
     display: block;
-    background-color: var(--color-blue);
-    margin-top:  15px;
+    background-color: var(--button);
     color: var(--cor-de-fundo);
+    margin-top:  15px;
     cursor: pointer;
 }
 .formcontato__botao:hover{
     opacity: 1;
-    background-color: var(--dark-gray);
-    color: var(--button);
+    background-color: #999;
+    
+
     
 }
 
 @media  (max-width: 768px){
     .formcontato{
-            display: block;
+            display: flex;
             flex-direction: column;
+            align-items: center;
             width: 100%;
             padding: 0;
+            height: 600px;
     }
     .formcontato__text{
             width:90%;
@@ -76,7 +79,7 @@
     .formcontato__textarea,
     .formcontato__botao{
     
-        margin-top: 5px;
+        margin-top: 7px;
         width: 90%;
     
     }
